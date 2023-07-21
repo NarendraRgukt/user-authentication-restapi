@@ -135,8 +135,8 @@ REST_FRAMEWORK={
 
 
 
-GOOGLE_OAUTH2_CLIENT_ID = '346970066608-1kgbtqiojmcluu47ddacrhcsfvqtjm1l.apps.googleusercontent.com'
-GOOGLE_OAUTH2_CLIENT_SECRET = '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'
+GOOGLE_OAUTH2_CLIENT_ID = 'your google client id'
+GOOGLE_OAUTH2_CLIENT_SECRET = 'google secret key'
 
 # Add the Google OAuth2.0 redirect URI
 GOOGLE_OAUTH2_REDIRECT_URI = 'http://localhost:8000/auth/complete/google-oauth2/'
