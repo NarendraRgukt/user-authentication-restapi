@@ -1,6 +1,7 @@
 # user-authentication-restapi
 Here are the various end points that I created in this project<br>
 POST-http://127.0.0.1:8000/api/account/create/user/<br>
+This endpoint is used to create user by providing the user details<br>
 Body Request:<br>
 {<br>
   "email": "user@example.com",<br>
@@ -37,6 +38,32 @@ Response Body:<br>
 {<br>
     "token": "string"<br>
 }<br>
+
+
+<h4>GET-http://127.0.0.1:8000/api/account/user/manage/</h4><br>
+It will retrieve the user information 
+Request Body:<br>
+In the headers of the request with the field name of authorization sending user's token<br>
+
+{<br>
+'Authorization':"Token usertoken"<br>
+}<br>
+RESPONSES:<br>
+STATUS:200
+RESPONSE_BODY:<br>
+{<br>
+    "email": "string",<br>
+    "name": "string"<br>
+}<br>
+
+
+
+
+
+
+
+
+
 
 
 
